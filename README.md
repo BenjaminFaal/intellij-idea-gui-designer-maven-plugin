@@ -4,6 +4,13 @@ IntelliJ IDEA GUI Designer Maven Plugin
 [![Release](https://jitpack.io/v/BenjaminFaal/intellij-idea-gui-designer-maven-plugin.svg)](https://jitpack.io/#BenjaminFaal/intellij-idea-gui-designer-maven-plugin)
 ## Usage
 ```xml
+<pluginRepositories>
+    <pluginRepository>
+        <id>jitpack</id>
+        <url>https://jitpack.io</url>
+    </pluginRepository>
+</pluginRepositories>
+
 <plugin>
     <groupId>com.github.BenjaminFaal</groupId>
     <artifactId>intellij-idea-gui-designer-maven-plugin</artifactId>
